@@ -23,5 +23,5 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: tekloon-test-stack
-          template: cloudf.yaml
+          template: cloudf.yml
           no-fail-on-empty-changeset: "1"
